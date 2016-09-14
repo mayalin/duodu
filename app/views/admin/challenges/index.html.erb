@@ -1,0 +1,19 @@
+<div class="pull-right">
+  <%= link_to("新建挑战", new_admin_challenge_path, :class => "btn btn-default") %>
+</div>
+
+<br><br>
+<table class="table table-boldered">
+  <thead>
+    <td>标题</td>
+    <td>描述</td>
+  </thead>
+  <tbody>
+    <% @challenges.each do |challenge| %>
+    <tr>
+      <td><%= challenge.title %></td>
+      <td><%= challenge.description %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
