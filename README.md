@@ -1,24 +1,11 @@
-# README
+# 多读
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+多读是一个致力于读书追踪的开源项目，让你可以更加聪明地阅读。
 
-Things you may want to cover:
+使用多读，你将习得以下技能:
 
-* Ruby version
+* 通读一本书
 
-* System dependencies
+* 主动阅读
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* 重复阅读
