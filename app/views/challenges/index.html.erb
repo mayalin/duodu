@@ -21,3 +21,6 @@
      </div>
 
 </div>
+<% @challenges.each do |challenge| %>
+  <%= link_to(challenge.title, challenge_path(challenge)) %>
+<% end %>

@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root 'welcome#index'
+  resources :challenges
+  root 'challenges#index'
 end
